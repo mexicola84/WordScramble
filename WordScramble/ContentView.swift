@@ -45,6 +45,7 @@ struct ContentView: View {
             .toolbar{
                 Button("Start new Game") {
                     startGame()
+                    usedWords.removeAll()
                     score = 0
                 }
             }
